@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Chronicles Symbols';
+    src: url('fonts/chronicles-symbols.ttf') format('opentype');
+}
+
+.symbol {
+    font-family: 'Chronicles Symbols', serif;
+}
+
+body, #search-input {
+    font-family: 'Lato', sans-serif;
+}
+#spell-list div {
+    background-color: rgb(210, 188, 231);
+    padding: 5px 50px;
+    margin: 10px;
+    border: 1px solid black;
+}

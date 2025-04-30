@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fear",
+    "actions": "aa",
+    "school": "Entropy",
+    "range": "30 feet",
+    "duration": "Instantaneous",
+    "description": "Make an attack against the MD of a creature. On a hit, the creature is frightened.<br><span class='symbol'>p</span><strong>Empower.</strong> The creature does not know you attempted to magically influence it when the spell ends or fails."
+  },
+  {
+    "name": "Flames",
+    "actions": "aa",
+    "school": "Manifestation",
+    "range": "30 feet",
+    "duration": "Instantaneous",
+    "description": "You may produce 1 of the following effects:<br>♦ Attack. Make an attack against a target’s PD within range. On a hit, the target suffers 1 fire damage and begins burning.<br>♦ Fire Orb. A fiery orb appears harmlessly in your hand that sheds bright light in a 10-foot radius and dim light for 10 more feet. The spell ends if you dismiss it as a free action, you cast it again, or you perform the attack effect.<br><span class='symbol'>p</span><strong>Empower.</strong> Increase the damage of the attack by 1."
+  },
+  {
+    "name": "Fly",
+    "actions": "aaa",
+    "school": "Ascension",
+    "range": "Touch",
+    "duration": "1 minute (Concentration)",
+    "description": "The target gains a flying speed of 10 feet.<br><strong>Empower.</strong> Choose one of the following effects:<br><span class='symbol'>ppp</span>Hover. The flying speed allows the target to hover.<br><span class='symbol'>p</span>Swiftness. The flying speed increases by 10 feet."
+  }
+]

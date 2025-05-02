@@ -10,9 +10,38 @@
 body, #search-input {
     font-family: 'Lato', sans-serif;
 }
+
+h3 {
+    font-family: 'Alegreya SC', serif;
+    margin: 0 auto;
+}
+
+p {
+    margin: 5px 0px;
+}
+
 #spell-list div {
     background-color: rgb(210, 188, 231);
-    padding: 5px 50px;
+    padding: 15px 25px;
     margin: 10px;
     border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* #spell-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+} */
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 1.2em;
+    margin: 0px;
+}
+  
+ul li::marker {
+    content: "♦ ";
+    font-size: 1em;
 }

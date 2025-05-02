@@ -22,6 +22,7 @@ fetch('spells.json')
             <strong>Range:</strong> ${spell.range}<br>
             <strong>Duration:</strong> ${spell.duration}
             <p>${spell.description}</p>
+            <p>${spell.empower}</p>
           `;
           list.appendChild(item);
         }
